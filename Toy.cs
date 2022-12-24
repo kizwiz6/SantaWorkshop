@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SantaWorkshop
 {
     /// <summary>
-    /// Single Responsibility Principle (SRP) - each class should have only one reason to change
+    /// Single Responsibility Principle (SRP) - each class should have only one reason to change. The Toy class follows the Single Responsibility Principle because it has only one reason to change (the properties and constructor).
     /// </summary>
     public class Toy
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SantaWorkshop
 {
     /// <summary>
-    /// Liskov Substitution Principle (LSP) - derived classes should be able to be used in place of their base class without causing any issues
+    /// Liskov Substitution Principle (LSP) - derived classes should be able to be used in place of their base class without causing any issues. The SpecialOrderProcessor class follows the Liskov Substitution Principle because it can be used in place of the OrderProcessor class without causing any issues.
     /// </summary>
     public class SpecialOrderProcessor : IOrderProcessor
     {
